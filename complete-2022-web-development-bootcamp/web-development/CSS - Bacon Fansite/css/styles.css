@@ -2,3 +2,20 @@ h1 {
 	color: red;
 	font-size: 200px;
 }
+
+img {
+	height: 200px;
+	width: 200px;
+}
+
+.apple {
+	background-color: green;
+}
+
+.broccoli {
+	background-color: red;
+}
+
+#heading {
+	color: blue;
+}
