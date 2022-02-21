@@ -4,12 +4,14 @@
 }
 
 .container-fluid {
-	padding: 3% 20%;
+	padding: 3% 20% 7%;
 }
 
 #features {
 	padding: 7% 15%;
+	background-color: white;
 	text-align: center;
+	position: relative;
 }
 
 .feature-box {
@@ -68,6 +70,8 @@ p {
 .title-image {
 	transform: rotate(25deg);
 	width: 60%;
+	margin-left: 15%;
+	position: relative;
 }
 
 .feature-icon {
@@ -81,7 +85,6 @@ p {
 }
 
 #testimonials {
-	padding: 7% 15%;
 	text-align: center;
 	background-color: #ef8172;
 	color: #fff;
@@ -102,4 +105,41 @@ p {
 .press-logo {
 	width: 15%;
 	margin: 20px 20px 50px;
+}
+
+.carousel-item {
+	padding: 7% 15%;
+}
+
+#pricing {
+	padding: 7% 15%;
+}
+
+.pricing-column {
+	padding: 3% 2%;
+} 
+
+@media (max-width: 1028px){
+	#title {
+		text-align: center;
+	}
+	.title-image{
+		position: static;
+		margin: 0;
+		transform: rotate(0);
+	}
+}
+
+#cta {
+	text-align: center;
+	background-color: #ff4c68;
+	color: #fff;
+	padding: 7% 22%;
+}
+
+
+#footer {
+	text-align: center;
+	background-color: #fff;
+	padding: 5% 20%;
 }
